@@ -36,7 +36,7 @@ export default async function Home() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold tracking-tight bg-gradient-to-r from-orange-400 to-amber-600 bg-clip-text text-transparent">
-            DailyForge Status Board
+             Status Board
           </h1>
           {error ? (
             <p className="text-red-400 mt-3 text-lg font-medium">{error}</p>
